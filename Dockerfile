@@ -15,4 +15,4 @@ RUN apt update -q && apt install -yqq --force-yes \
     postfix
 
 # Start services
-CMD ["/root/start.sh"]
+CMD ["./start.sh"]
