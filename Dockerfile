@@ -14,6 +14,5 @@ RUN apt update -q && apt install -yqq --force-yes \
     php-zip \
     postfix
 
-# Start apache
-COPY ./start.sh /root/start.sh
-CMD /root/start.sh
+# Start services
+CMD ["/root/start.sh"]
