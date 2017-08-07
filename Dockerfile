@@ -11,8 +11,7 @@ RUN apt update -q && apt install -yqq --force-yes \
     php-mcrypt \
     php-xml \
     php-xmlrpc \
-    php-zip \
-    postfix
+    php-zip
 
 # Postfix
 # Note: we disable IPv6 for now, IPv6 is available in Docker even if the host does not have IPv6 connectivity
