@@ -13,6 +13,9 @@ RUN apt update -q && apt install -yqq --force-yes \
     php-xmlrpc \
     php-zip
 
+RUN docker-php-ext-configure mysql --with-mysql=mysqlnd \
+    && docker-php-ext-install mysql
+
 # Postfix
 # Note: we disable IPv6 for now, IPv6 is available in Docker even if the host does not have IPv6 connectivity
 RUN apt-get update -q -q && \
