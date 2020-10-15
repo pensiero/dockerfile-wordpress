@@ -5,13 +5,13 @@ LABEL maintainer="oscar.fanelli@gmail.com"
 
 # Mysql packages
 RUN apt update -q && apt install -yqq --force-yes \
-    php-cli \
-    php-gd \
-    php-imagick \
-    php-mcrypt \
-    php-xml \
-    php-xmlrpc \
-    php-zip
+    php7.4-cli \
+    php7.4-gd \
+    php7.4-imagick \
+    php7.4-mcrypt \
+    php7.4-xml \
+    php7.4-xmlrpc \
+    php7.4-zip
 
 # Postfix
 # Note: we disable IPv6 for now, IPv6 is available in Docker even if the host does not have IPv6 connectivity
