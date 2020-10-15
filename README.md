@@ -10,16 +10,11 @@ Use as image tag `pensiero/wordpress`.
 ### Services included
 
 - Apache
-- PHP 7.4
+- PHP 7.2
 - Postfix
 
 ### Available PHP versions
 Check out all the available tags on [Docker Hub](https://hub.docker.com/repository/docker/pensiero/wordpress/tags).
-
-If you wanna use a different php version, you can leverage any of following images:
-- `PHP 5.6` --> `pensiero/wordpress:php5.6`
-- `PHP 7.2` --> `pensiero/wordpress:php7.2`
-- `PHP 7.4` --> `pensiero/wordpress:php7.4`
 
 ### PHP extensions included
 
