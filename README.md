@@ -16,7 +16,7 @@ Use as image tag `pensiero/wordpress`.
 ### Available PHP versions
 Check out all the available tags on [Docker Hub](https://hub.docker.com/repository/docker/pensiero/wordpress/tags).
 
-If you wanna use a different php version, you can leverage any of following images:
+If you wanna use a different php version, you can leverage any of the following images:
 - `PHP 5.6` --> `pensiero/wordpress:php5.6`
 - `PHP 7.0` --> `pensiero/wordpress:php7.0`
 - `PHP 7.2` --> `pensiero/wordpress:php7.2`
