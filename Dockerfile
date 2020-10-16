@@ -5,11 +5,9 @@ LABEL maintainer="oscar.fanelli@gmail.com"
 
 # Mysql packages
 RUN apt update -q && apt install -yqq --force-yes \
-    php7.4-cli \
     php7.4-gd \
     php7.4-imagick \
     php7.4-xml \
-    php7.4-xmlrpc \
     php7.4-zip
 
 # Postfix
